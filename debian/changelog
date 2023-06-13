@@ -1,5 +1,109 @@
-template-repository (1.0-1) unstable; urgency=medium
+libtest-time-perl (0.092-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Import upstream version 0.092.
+  * Declare compliance with Debian Policy 4.6.1.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Sat, 16 Jul 2022 16:56:30 +0200
+
+libtest-time-perl (0.08-5) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 0.08-4.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 30 Jun 2022 09:30:19 +0100
+
+libtest-time-perl (0.08-4) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+  * Set debhelper-compat (= 13)
+
+ -- Hideki Yamane <henrich@debian.org>  Wed, 03 Jun 2020 00:21:53 +0900
+
+libtest-time-perl (0.08-3) unstable; urgency=medium
+
+  * debian/control
+    - set Standards-Version: 4.4.1
+    - add Multi-Arch: foreign
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 02 Nov 2019 18:20:48 +0900
+
+libtest-time-perl (0.08-2) unstable; urgency=medium
+
+  * add debian/salsa-ci.yml
+
+ -- Hideki Yamane <henrich@debian.org>  Sun, 29 Sep 2019 12:01:49 +0900
+
+libtest-time-perl (0.08-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Hideki Yamane ]
+  * New upstream version 0.08
+  * set Standards-Version: 4.3.0
+  * update copyright year
+  * use dh12
+  * add Rules-Requires-Root: no
+
+  [ gregor herrmann ]
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.0.
+  * debian/watch: use uscan version 4.
+  * Remove trailing whitespace from debian/*.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 15 Jul 2019 18:04:36 -0300
+
+libtest-time-perl (0.07-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.07.
+  * Declare compliance with Debian Policy 4.2.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 30 Sep 2018 17:12:35 +0200
+
+libtest-time-perl (0.06-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/*: update GitHub URLs to use HTTPS.
+  * Import upstream version 0.06
+  * debian/copyright: add new third-party files.
+  * Update debian/upstream/metadata.
+  * Make short description a noun phrase.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 4.1.5.
+  * Bump debhelper compatibility level to 10.
+  * Add tzdata to Build-Depends-Indep.
+    Otherwise the new test, which sets TZ, fails.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 16 Jul 2018 20:39:33 +0200
+
+libtest-time-perl (0.05-2) unstable; urgency=medium
+
+  * debian/control
+    - set Maintainer: Debian Perl Group
+    - set Standards-Version: 4.1.0
+    - add Vcs-*
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 26 Aug 2017 08:40:31 +0900
+
+libtest-time-perl (0.05-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control
+    - set Standards-Version: 4.0.1
+
+ -- Hideki Yamane <henrich@debian.org>  Thu, 17 Aug 2017 05:53:43 +0900
+
+libtest-time-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release (Closes: #839572)
+
+ -- Hideki Yamane <henrich@debian.org>  Wed, 28 Sep 2016 21:30:20 +0900
